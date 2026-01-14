@@ -23,14 +23,14 @@ All plots are saved as **interactive HTML files** for easy sharing.
 ---
 
 ## Project Structure
-
+```bash
 Netflix-Content-Strategy-Analysis/
 │
 ├── netflix_content.csv # Input dataset 
 ├── outputs/ # Auto-generated interactive plots & CSVs
 ├── main.py # Main analysis + dashboard script
 ├── README.md # Project documentation
-
+```
 ---
 
 ## Key Insights Generated
@@ -82,12 +82,16 @@ streamlit run analysis.py -- --web
 ```
 This launches an interactive dashboard in your browser.
 
+---
+
 ## 📊 Output
 - Interactive bar & line charts (.html)
 
 - Holiday release table (holiday_releases.csv)
 
 - On-screen dashboard visualizations
+
+---
 
 ## Dataset Requirements
 Your CSV file should ideally include the following columns:
@@ -103,3 +107,4 @@ Your CSV file should ideally include the following columns:
 - Language Indicator
 
 (You can download the dataset from Kaggle or from my repository)
+
